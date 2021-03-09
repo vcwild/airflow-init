@@ -9,19 +9,19 @@ Default settings to get Apache Airflow Docker up and running
 - Start databases
 
 ```sh
-docker-compose up airflow-init
+docker-compose up airflow-init -d
 ```
 
 - Run Airflow
 
 ```sh
-docker-compose up
+docker-compose up -d
 ```
 
 - Run CLI
 
 ```sh
-docker-compose run airflow-worker airflow info
+docker-compose run airflow-worker airflow info -d
 ```
 
 ## Use Airflow shell script
