@@ -32,7 +32,7 @@ chmod +x ./airflow.sh
 
 ## Create alias
 ```sh
-alias airflow="./airflow.sh"
+alias airflow="$(pwd)/airflow.sh"
 ```
 
 ## Cleaning up
